@@ -1,0 +1,39 @@
+Please analyze this PDF document and provide a comprehensive analysis with the following structure:
+
+{
+  "document_analysis": {
+    "summary": "Provide a concise summary of the main content",
+    "key_topics": [
+      "List the main topics discussed in the document"
+    ],
+    "findings": [
+      "List the key findings or insights"
+    ],
+    "conclusions": [
+      "List the main conclusions"
+    ],
+    "recommendations": [
+      "List any recommendations or action items"
+    ]
+  },
+  "metadata_analysis": {
+    "document_type": "Identify the type of document (e.g., research paper, business report, technical documentation)",
+    "target_audience": "Identify the intended audience",
+    "key_stakeholders": [
+      "List any key stakeholders mentioned"
+    ]
+  },
+  "technical_details": {
+    "methodologies": [
+      "List any methodologies or approaches discussed"
+    ],
+    "tools_technologies": [
+      "List any tools or technologies mentioned"
+    ],
+    "data_sources": [
+      "List any data sources or references used"
+    ]
+  }
+}
+
+Please ensure the response follows this exact JSON structure. If any section is not applicable, include it with an empty array or appropriate null/empty value. 
